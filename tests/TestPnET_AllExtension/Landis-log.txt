@@ -1,0 +1,45 @@
+2026-04-21 20:55:09,356 - LANDIS-II 8.0 (8)
+2026-04-21 20:55:09,361 - 
+2026-04-21 20:55:09,392 - Loading scenario from file "scenario2.txt" ...
+2026-04-21 20:55:09,412 - Initialized random number generator with user-supplied seed = 1,111
+2026-04-21 20:55:09,412 - Loading species data from file "./inputs/core/species.txt" ...
+2026-04-21 20:55:09,415 - Loading ecoregions from file "./inputs/core/ecoregion.txt" ...
+2026-04-21 20:55:09,420 - Core metadata:
+2026-04-21 20:55:09,420 - LANDIS-II v8.0, Seed: 1111, ./inputs/core/medlands_binary1.img, ./inputs/core/ecoregion.txt, ./inputs/core/species.txt
+Succession:
+PnET-Succession Version: 6.0.3, Input: ./inputs/succession/pnetsuccession.txt
+Disturbance Extensions:
+Dynamic Fuel System Version: 4.0, Input: ./inputs/disturbances/dynamicBiomassFuels/dynamic-fire_SetUpFuel.txt
+Dynamic Fire System Version: 4.0, Input: ./inputs/disturbances/dynamicFireSystem/dynamic-fire_SetUpFire.txt
+Magic Harvest Version: 2.1, Input: ./inputs/disturbances/magicHarvest/magic_harvest.txt
+Biomass Harvest Version: 6.0, Input: ./inputs/disturbances/magicHarvest/biomass-harvest_SetUp_s2e1.txt
+Forest Roads Simulation Version: 2.0.0, Input: ./inputs/disturbances/forestRoadsSimulation/roads.txt
+Original Wind Version: 4.0, Input: ./inputs/disturbances/originalWind/original-wind.txt
+Linear Wind Version: 3.0, Input: ./inputs/disturbances/linearWind/LinearWind_Input.txt
+Hurricane Version: 3.0, Input: ./inputs/disturbances/biomassHuricane/Hurricane_v3.txt
+Climate BDA Version: 5.0, Input: ./inputs/disturbances/climateBDA/Climate-BDA_SetUp.txt
+Land Use Change Version: 4.0, Input: ./inputs/disturbances/landUsePlus/land-use-change-inputs.txt
+Other Extensions:
+Output Max Species Age Version: 4.0, Input: ./inputs/output/MaxSpeciesAge/output_MaxSppAge.txt
+Output Biomass-by-Age Version: 4.0, Input: ./inputs/output/BiomassByAge/output_Biomass-by-Age.txt
+Output Biomass Community Version: 3.0, Input: ./inputs/output/BiomassCommunity/output_Biomass_Community.txt
+Output Biomass Version: 4.0, Input: ./inputs/output/BiomassOutput/output_Biomass.txt
+Output Biomass Reclass Version: 4.0, Input: ./inputs/output/BiomassReclassification/output_BiomassReclass.txt
+Output Cohort Statistics Version: 4.0, Input: ./inputs/output/cohortStatistics/output_CohortStats.txt
+Local Habitat Output Version: 3.0, Input: ./inputs/output/localHabitatSuitability/Habitat_input.txt
+Wildlife Habitat Output Version: 3.0, Input: ./inputs/output/wildlifeHabitat/NESands_Habitat.txt
+Output-PnET Version: 6.0.2, Input: ./inputs/output/BiomassOutputPnET/biomass.outputPnET.txt
+
+2026-04-21 20:55:09,420 - Initializing landscape from ecoregions map "./inputs/core/medlands_binary1.img" ...
+2026-04-21 20:55:09,427 - Cell length = 30 m, cell area = 0.09 ha
+2026-04-21 20:55:09,428 - Map dimensions: 1,349 rows by 1,830 columns = 2,468,670 cells
+2026-04-21 20:55:09,552 - Sites: 1,363,019 active (55.2 %), 1,105,651 inactive (44.8 %)
+2026-04-21 20:55:09,736 - Loading PnET-Succession extension ...
+2026-04-21 20:55:09,793 - Internal error occurred within the program:
+2026-04-21 20:55:09,793 -   Cannot determine location of Site1Row 9Column 9 returned (9, 9)
+2026-04-21 20:55:09,793 - 
+2026-04-21 20:55:09,793 - Stack trace:
+2026-04-21 20:55:09,804 -    at Landis.Extension.Succession.BiomassPnET.AssignOutputFiles.MapCells(Dictionary`2 outputfiles, Dictionary`2& OutputSiteNames) in /opt/landis-ii/Core-Model-v8-LINUX/Extension-PnET-Succession/src/AssignOutputFiles.cs:line 125
+   at Landis.Extension.Succession.BiomassPnET.PlugIn.LoadParameters(String InputParameterFile, ICore mCore) in /opt/landis-ii/Core-Model-v8-LINUX/Extension-PnET-Succession/src/PlugIn.cs:line 191
+   at Landis.Model.Run(String scenarioPath, IUserInterface ui)
+   at Landis.App.Main(String[] args) in /opt/landis-ii/Core-Model-v8-LINUX/Tool-Console/src/App.cs:line 98

@@ -1,0 +1,90 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.2.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "extension_files", "extension_files", "{5F32ED5D-07FB-E5A9-88E2-FE444EB1620E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "extension_files_v7", "extension_files_v7", "{3598B8CF-49C1-EB0A-05FD-2F6B744C3DC1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Clean_Docker_LANDIS-II_7_AllExtensions", "Clean_Docker_LANDIS-II_7_AllExtensions", "{D89595FE-C23C-C2A6-C116-274436F37A1C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Clean_Docker_LANDIS-II_8_AllExtensions", "Clean_Docker_LANDIS-II_8_AllExtensions", "{C0667D56-7379-E52C-C9DD-C52608BE3626}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Forest-Roads-Extension", "extension_files\Forest-Roads-Extension.csproj", "{47275B51-0C90-A6DA-7C82-9C880F1BA61F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Magic Harvest", "extension_files\Magic Harvest.csproj", "{F94C7F38-1082-0EBC-FF2D-34CD71FFE698}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Forest-Roads-Extension", "extension_files_v7\Forest-Roads-Extension.csproj", "{C4F365F6-6389-82EB-BA77-26D3675B2A80}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Magic Harvest", "extension_files_v7\Magic Harvest.csproj", "{06154753-6A4A-1D82-274A-E43623D7DF66}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "files_to_help_compilation", "files_to_help_compilation", "{CCB4A018-7C0C-61AB-8FEC-51B981E014C8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Forest-Roads-Extension", "Clean_Docker_LANDIS-II_7_AllExtensions\files_to_help_compilation\Forest-Roads-Extension.csproj", "{7F7CB85C-DA83-526B-0BEA-C2AA7C024BAB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Magic Harvest", "Clean_Docker_LANDIS-II_7_AllExtensions\files_to_help_compilation\Magic Harvest.csproj", "{09CC0D20-52A1-0F04-3A27-3F611198510E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "files_to_help_compilation", "files_to_help_compilation", "{B645D5FA-2CD8-3311-BE2B-A317BD4F71CF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Forest-Roads-Extension", "Clean_Docker_LANDIS-II_8_AllExtensions\files_to_help_compilation\Forest-Roads-Extension.csproj", "{A77E7E29-1B97-4E71-C237-84A6A5609400}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Magic Harvest", "Clean_Docker_LANDIS-II_8_AllExtensions\files_to_help_compilation\Magic Harvest.csproj", "{95D09319-C663-2BE8-7F7C-B4E15ED8FB63}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{47275B51-0C90-A6DA-7C82-9C880F1BA61F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{47275B51-0C90-A6DA-7C82-9C880F1BA61F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{47275B51-0C90-A6DA-7C82-9C880F1BA61F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{47275B51-0C90-A6DA-7C82-9C880F1BA61F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F94C7F38-1082-0EBC-FF2D-34CD71FFE698}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F94C7F38-1082-0EBC-FF2D-34CD71FFE698}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F94C7F38-1082-0EBC-FF2D-34CD71FFE698}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F94C7F38-1082-0EBC-FF2D-34CD71FFE698}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C4F365F6-6389-82EB-BA77-26D3675B2A80}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C4F365F6-6389-82EB-BA77-26D3675B2A80}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C4F365F6-6389-82EB-BA77-26D3675B2A80}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C4F365F6-6389-82EB-BA77-26D3675B2A80}.Release|Any CPU.Build.0 = Release|Any CPU
+		{06154753-6A4A-1D82-274A-E43623D7DF66}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{06154753-6A4A-1D82-274A-E43623D7DF66}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{06154753-6A4A-1D82-274A-E43623D7DF66}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{06154753-6A4A-1D82-274A-E43623D7DF66}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7F7CB85C-DA83-526B-0BEA-C2AA7C024BAB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7F7CB85C-DA83-526B-0BEA-C2AA7C024BAB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7F7CB85C-DA83-526B-0BEA-C2AA7C024BAB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7F7CB85C-DA83-526B-0BEA-C2AA7C024BAB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{09CC0D20-52A1-0F04-3A27-3F611198510E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{09CC0D20-52A1-0F04-3A27-3F611198510E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{09CC0D20-52A1-0F04-3A27-3F611198510E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{09CC0D20-52A1-0F04-3A27-3F611198510E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A77E7E29-1B97-4E71-C237-84A6A5609400}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A77E7E29-1B97-4E71-C237-84A6A5609400}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A77E7E29-1B97-4E71-C237-84A6A5609400}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A77E7E29-1B97-4E71-C237-84A6A5609400}.Release|Any CPU.Build.0 = Release|Any CPU
+		{95D09319-C663-2BE8-7F7C-B4E15ED8FB63}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{95D09319-C663-2BE8-7F7C-B4E15ED8FB63}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{95D09319-C663-2BE8-7F7C-B4E15ED8FB63}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{95D09319-C663-2BE8-7F7C-B4E15ED8FB63}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{47275B51-0C90-A6DA-7C82-9C880F1BA61F} = {5F32ED5D-07FB-E5A9-88E2-FE444EB1620E}
+		{F94C7F38-1082-0EBC-FF2D-34CD71FFE698} = {5F32ED5D-07FB-E5A9-88E2-FE444EB1620E}
+		{C4F365F6-6389-82EB-BA77-26D3675B2A80} = {3598B8CF-49C1-EB0A-05FD-2F6B744C3DC1}
+		{06154753-6A4A-1D82-274A-E43623D7DF66} = {3598B8CF-49C1-EB0A-05FD-2F6B744C3DC1}
+		{CCB4A018-7C0C-61AB-8FEC-51B981E014C8} = {D89595FE-C23C-C2A6-C116-274436F37A1C}
+		{7F7CB85C-DA83-526B-0BEA-C2AA7C024BAB} = {CCB4A018-7C0C-61AB-8FEC-51B981E014C8}
+		{09CC0D20-52A1-0F04-3A27-3F611198510E} = {CCB4A018-7C0C-61AB-8FEC-51B981E014C8}
+		{B645D5FA-2CD8-3311-BE2B-A317BD4F71CF} = {C0667D56-7379-E52C-C9DD-C52608BE3626}
+		{A77E7E29-1B97-4E71-C237-84A6A5609400} = {B645D5FA-2CD8-3311-BE2B-A317BD4F71CF}
+		{95D09319-C663-2BE8-7F7C-B4E15ED8FB63} = {B645D5FA-2CD8-3311-BE2B-A317BD4F71CF}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {32342D13-6C48-44AA-8653-2F5FE3DBD326}
+	EndGlobalSection
+EndGlobal

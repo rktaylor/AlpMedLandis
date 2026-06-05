@@ -1,4 +1,4 @@
-FROM rocker/geospatial:4.5.1
+FROM docker.io/rocker/geospatial:4.5.1    
 
 LABEL org.opencontainers.image.authors="clem.hardy@pm.me; achubaty@for-cast.ca;"
 
