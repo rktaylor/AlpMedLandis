@@ -1,11 +1,21 @@
 {
   "version": 2,
-  "dgSpecHash": "mAQU7FAsjmo=",
-  "success": true,
-  "projectFilePath": "/home/moss/dev/Medlands/Landis-Docker/extension_files_v7/Magic Harvest.csproj",
+  "dgSpecHash": "iPmc0KkDKsU=",
+  "success": false,
+  "projectFilePath": "/home/moss/dev/Medlands/Landis-Docker/extension_files_v7/Forest-Roads-Extension.csproj",
   "expectedPackageFiles": [
     "/home/moss/.nuget/packages/microsoft.netcore.platforms/1.1.0/microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "/home/moss/.nuget/packages/netstandard.library/2.0.3/netstandard.library.2.0.3.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "NU1101",
+      "level": "Error",
+      "message": "Unable to find package Landis.Core. No packages exist with this id in source(s): /usr/lib/dotnet/library-packs, nuget.org",
+      "libraryId": "Landis.Core",
+      "targetGraphs": [
+        ".NETStandard,Version=v2.0"
+      ]
+    }
+  ]
 }
