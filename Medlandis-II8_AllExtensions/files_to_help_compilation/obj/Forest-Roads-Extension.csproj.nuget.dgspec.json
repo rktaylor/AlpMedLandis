@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/home/moss/dev/Medlands/Landis-Docker/Clean_Docker_LANDIS-II_8_AllExtensions/files_to_help_compilation/Forest-Roads-Extension.csproj": {}
+    "/home/moss/dev/Medlands/Landis-Docker/Medlandis-II8_AllExtensions/files_to_help_compilation/Forest-Roads-Extension.csproj": {}
   },
   "projects": {
-    "/home/moss/dev/Medlands/Landis-Docker/Clean_Docker_LANDIS-II_8_AllExtensions/files_to_help_compilation/Forest-Roads-Extension.csproj": {
+    "/home/moss/dev/Medlands/Landis-Docker/Medlandis-II8_AllExtensions/files_to_help_compilation/Forest-Roads-Extension.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/moss/dev/Medlands/Landis-Docker/Clean_Docker_LANDIS-II_8_AllExtensions/files_to_help_compilation/Forest-Roads-Extension.csproj",
+        "projectUniqueName": "/home/moss/dev/Medlands/Landis-Docker/Medlandis-II8_AllExtensions/files_to_help_compilation/Forest-Roads-Extension.csproj",
         "projectName": "Landis.Extension.ForestRoadsSimulation",
-        "projectPath": "/home/moss/dev/Medlands/Landis-Docker/Clean_Docker_LANDIS-II_8_AllExtensions/files_to_help_compilation/Forest-Roads-Extension.csproj",
+        "projectPath": "/home/moss/dev/Medlands/Landis-Docker/Medlandis-II8_AllExtensions/files_to_help_compilation/Forest-Roads-Extension.csproj",
         "packagesPath": "/home/moss/.nuget/packages/",
-        "outputPath": "/home/moss/dev/Medlands/Landis-Docker/Clean_Docker_LANDIS-II_8_AllExtensions/files_to_help_compilation/obj/",
+        "outputPath": "/home/moss/dev/Medlands/Landis-Docker/Medlandis-II8_AllExtensions/files_to_help_compilation/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/moss/.nuget/NuGet/NuGet.Config"

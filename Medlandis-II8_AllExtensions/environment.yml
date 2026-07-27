@@ -8,6 +8,8 @@ dependencies:
   - numpy
   - pip
   - vim
+  - r-base
+  - r-terra
   - pip:
     - grass-session
     # - pytest

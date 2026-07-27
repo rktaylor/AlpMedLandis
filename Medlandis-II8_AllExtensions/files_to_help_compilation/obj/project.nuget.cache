@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "WcJU2aQw0mE=",
+  "dgSpecHash": "s6uGb4gM/a4=",
   "success": false,
-  "projectFilePath": "/home/moss/dev/Medlands/Landis-Docker/Clean_Docker_LANDIS-II_8_AllExtensions/files_to_help_compilation/Forest-Roads-Extension.csproj",
+  "projectFilePath": "/home/moss/dev/Medlands/Landis-Docker/Medlandis-II8_AllExtensions/files_to_help_compilation/Forest-Roads-Extension.csproj",
   "expectedPackageFiles": [
     "/home/moss/.nuget/packages/microsoft.netcore.platforms/1.1.0/microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "/home/moss/.nuget/packages/netstandard.library/2.0.3/netstandard.library.2.0.3.nupkg.sha512"
