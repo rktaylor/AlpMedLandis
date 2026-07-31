@@ -176,7 +176,6 @@
   },
   "projectFileDependencyGroups": {
     ".NETStandard,Version=v2.0": [
-      "Landis.Core >= 3.0.1",
       "NETStandard.Library >= 2.0.3"
     ]
   },
@@ -186,9 +185,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/moss/dev/Medlands/Landis-Docker/extension_files/Forest-Roads-Extension.csproj",
-      "projectName": "Landis.Extension.ForestRoadsSimulation",
-      "projectPath": "/home/moss/dev/Medlands/Landis-Docker/extension_files/Forest-Roads-Extension.csproj",
+      "projectUniqueName": "/home/moss/dev/Medlands/Landis-Docker/extension_files/Magic Harvest.csproj",
+      "projectName": "Landis.Extension.MagicHarvest",
+      "projectPath": "/home/moss/dev/Medlands/Landis-Docker/extension_files/Magic Harvest.csproj",
       "packagesPath": "/home/moss/.nuget/packages/",
       "outputPath": "/home/moss/dev/Medlands/Landis-Docker/extension_files/obj/",
       "projectStyle": "PackageReference",
@@ -224,10 +223,6 @@
       "netstandard2.0": {
         "targetAlias": "netstandard2.0",
         "dependencies": {
-          "Landis.Core": {
-            "target": "Package",
-            "version": "[3.0.1, )"
-          },
           "NETStandard.Library": {
             "suppressParent": "All",
             "target": "Package",
@@ -249,16 +244,5 @@
         "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/9.0.116/RuntimeIdentifierGraph.json"
       }
     }
-  },
-  "logs": [
-    {
-      "code": "NU1101",
-      "level": "Error",
-      "message": "Unable to find package Landis.Core. No packages exist with this id in source(s): /usr/lib/dotnet/library-packs, nuget.org",
-      "libraryId": "Landis.Core",
-      "targetGraphs": [
-        ".NETStandard,Version=v2.0"
-      ]
-    }
-  ]
+  }
 }
