@@ -51,4 +51,15 @@ if int(timestep) == 10:
     gis = GrassController(GISDB, LOCATION)
     gis.test()
 
+if int(timestep) == 10:
+    pp("Calling landscape evol...")
+    import find_grass as F
+    status_code = F.run_landscape_evol(str(timestep))
+    sc = ""
+    if status_code == 0:
+        sc += "---✅️"
+    else:
+        sc += "---❌️"
+    pp("{}: {}".format(sc, status_code))
+
 

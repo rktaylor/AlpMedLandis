@@ -524,10 +524,14 @@ RUN git config --global --unset advice.detachedHead \
   && git config --global --unset http.postBuffer \
   && git config --global --unset http.version
 
+RUN apt-get update && apt-get install -y cmake build-essential grass-dev   
+
 ## Add Mamba
 COPY --chown=$MAMBA_USER:$MAMBA_USER environment.yml /tmp/environment.yml
 RUN micromamba install -y -n base -f /tmp/environment.yml && \
     micromamba clean --all --yes
+
+RUN grass /opt/conda/lib/grass85/cascadia/PERMANENT --exec g.extension extension=r.landscape.evol operation=add
 
 # Set the entrypoint to use the environment
 CMD ["bash"] 

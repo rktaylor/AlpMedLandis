@@ -15,6 +15,7 @@ dependencies:
   - pandas
   - pip:
     - grass-session
+    - grass-script
     # - pytest
     # - pytest-testinfra
     # - pytest-testinfra[podman]

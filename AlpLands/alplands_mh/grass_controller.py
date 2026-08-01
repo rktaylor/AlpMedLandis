@@ -4,8 +4,9 @@ import re
 from collections import defaultdict
 
 # these are the default paths for a conda installation
-DEFAULT_GISDB = "/opt/conda/grass84"
-DEFAULT_LOCATION = "demolocation"
+DEFAULT_GISDB = "/opt/conda/lib/grass85"
+DEFAULT_LOCATION = "cascadia"
+
 
 class GrassController:
     """
