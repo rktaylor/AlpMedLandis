@@ -1,8 +1,0 @@
-is_global = true
-build_property.RootNamespace = Landis.Extension.ForestRoadsSimulation
-build_property.ProjectDir = /home/moss/dev/Medlands/Landis-Docker/Medlandis-II8_AllExtensions/files_to_help_compilation/
-build_property.EnableComHosting = 
-build_property.EnableGeneratedComInterfaceComImportInterop = 
-build_property.CsWinRTUseWindowsUIXamlProjections = false
-build_property.EffectiveAnalysisLevelStyle = 
-build_property.EnableCodeStyleSeverity = 

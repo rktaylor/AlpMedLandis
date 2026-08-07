@@ -5,7 +5,7 @@ Duration  50
 Species   species_s2e1.txt
 
 Ecoregions      ecoregions_s2e1.txt
-EcoregionsMap   ecoregions_alps.tif
+EcoregionsMap   ecoregions_fake_UTM_100.tif
 
 CellLength  1 << meters, 100 x 100 m = 1 ha
 

@@ -23,6 +23,8 @@ nownow = str(int(datetime.now().timestamp()))
 
 # TODO - how do we feedback Landscape Evol's changing landscape to the ecosystem communities?
 # TODO - and what map is mutating on the way in? Vegetation, surely? But what parameter is that?
+# TODO - the second tab in landscape.evol has "c-factor" for vegetation
+# TODO - Manning's N needs tuning.
 def run_landscape_evol(input_stem):
     print("⏰️⏰️⏰️: {}".format(input_stem))
     # Have a folder that's based on nownow, that's how we get distinct. 
