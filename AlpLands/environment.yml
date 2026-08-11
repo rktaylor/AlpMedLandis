@@ -1,0 +1,21 @@
+name: base
+channels:
+  - conda-forge
+dependencies:
+  - python=3.10
+  - grass
+  - gradio
+  - numpy
+  - pip
+  - vim
+  - r-base
+  - r-terra
+  - r-raster
+  - rpy2
+  - pandas
+  - pip:
+    - grass-session
+    - grass-script
+    # - pytest
+    # - pytest-testinfra
+    # - pytest-testinfra[podman]

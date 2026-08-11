@@ -1,0 +1,7 @@
+name: WGS 84 / UTM zone 10N
+datum: wgs84
+ellps: wgs84
+proj: utm
+zone: 10
+no_defs: defined
+towgs84: 0.000,0.000,0.000

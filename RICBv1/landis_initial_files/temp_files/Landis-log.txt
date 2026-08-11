@@ -1,0 +1,5 @@
+2026-04-17 19:43:48,820 - LANDIS-II 8.0 (8)
+2026-04-17 19:43:48,823 - 
+2026-04-17 19:43:48,855 - Loading scenario from file "scenario.txt" ...
+2026-04-17 19:43:48,862 - Error at line 1 of file "scenario.txt":
+  Found the name "Region9" but expected "LandisData"

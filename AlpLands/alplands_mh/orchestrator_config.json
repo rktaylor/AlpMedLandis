@@ -1,0 +1,5 @@
+{
+    "__doc": "TODO - This contains references to both the files that Landis needs as well as those it produces, so that the orchestrator's cleanup step can separate the two -- producing a clean data set and scrubbing the container environment",
+    "scenario": "./scenario.txt",
+    "foo": "bar"
+}

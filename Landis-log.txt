@@ -1,0 +1,21 @@
+2026-04-10 21:26:26,311 - LANDIS-II 8.0 (8)
+2026-04-10 21:26:26,315 - 
+2026-04-10 21:26:26,350 - Loading scenario from file "LANDIS-II/tests/TestPnET_AllExtension/scenario.txt" ...
+2026-04-10 21:26:26,354 - Internal error occurred within the program:
+2026-04-10 21:26:26,354 -   Too many levels of symbolic links : '/home/rstudio/LANDIS-II/LANDIS-II/tests/TestPnET_AllExtension/scenario.txt'
+2026-04-10 21:26:26,354 - 
+2026-04-10 21:26:26,354 - Stack trace:
+2026-04-10 21:26:26,361 -    at Interop.ThrowExceptionForIoErrno(ErrorInfo errorInfo, String path, Boolean isDirError)
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String path, OpenFlags flags, Int32 mode, Boolean failForSymlink, Boolean& wasSymlink, Func`4 createOpenException)
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, UnixFileMode openPermissions, Int64& fileLength, UnixFileMode& filePermissions, Boolean failForSymlink, Boolean& wasSymlink, Func`4 createOpenException)
+   at System.IO.Strategies.OSFileStreamStrategy..ctor(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, Int64 preallocationSize)
+   at System.IO.StreamReader.ValidateArgsAndOpenPath(String path, Encoding encoding, Int32 bufferSize)
+   at System.IO.StreamReader..ctor(String path)
+   at Landis.Utilities.FileLineReader..ctor(String path)
+   at Landis.Data.OpenTextFile(String path)
+   at Landis.Data.Load[T](String path, ITextParser`1 parser)
+   at Landis.Model.Load[T](String path, ITextParser`1 parser)
+   at Landis.Model.LoadScenario(String path)
+   at Landis.Model.Run(String scenarioPath, IUserInterface ui)
+   at Landis.App.Main(String[] args) in /opt/landis-ii/Core-Model-v8-LINUX/Tool-Console/src/App.cs:line 98

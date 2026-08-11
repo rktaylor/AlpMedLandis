@@ -1,0 +1,3 @@
+- Make sure the biomass map doesn't puyt biomass in the water.
+- Determine the set of maps that get updated that landscape.evol needs, like DEM and soil depth.
+- Simple ABM: just say "for a given eco region, just reduce the biomass". This produces a test for a conditional change to biomass, and therefore would be an MVP for ABM. 
