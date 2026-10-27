@@ -10,7 +10,9 @@ Timestep  			10
 SeedingAlgorithm  		WardSeedDispersal
 
 InitialCommunities      	./biomass-succession_InitialCommunities_s2e1.csv
-InitialCommunitiesMap   	./biomass-succession_InitialCommunities_s2e1.gis
+>> InitialCommunitiesMap   	./biomass-succession_InitialCommunities_s2e1.gis
+InitialCommunitiesMap   	./init_communities_fake_UTM_100.tif
+
 
 ClimateConfigFile		./biomass-succession_ClimateGenerator.txt
 

@@ -9,8 +9,8 @@ Timestep		5
 >>ManagementAreas 	./biomass-harvest_Management_s2e1.gis
 >>Stands     		./biomass-harvest_Stand_s2e1.gis
 
-ManagementAreas 	./ecoregions_alps.tif
-Stands     		./ecoregions_alps.tif
+ManagementAreas 	./ecoregions_fake_UTM_100.tif
+Stands     		./ecoregions_fake_UTM_100.tif
 
 
 

@@ -7,3 +7,4 @@ yes	1	101		"Sandy"
 yes	2	102		"Loamy"
 
 
+>> TODO one of these should be water
